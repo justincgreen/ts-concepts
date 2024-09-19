@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "ES6",           // Specify ECMAScript target version
+    "module": "CommonJS",      // Module system
+    "strict": true,            // Enable strict type checking
+    "outDir": "./dist",        // Output directory for compiled JS files
+    "rootDir": "./src",        // Root directory of your TS source files
+    "esModuleInterop": true    // Allows default imports from modules with no default export
+  },
+  "exclude": ["node_modules"]
+}
